@@ -4,12 +4,13 @@ import './styles.scss';
 
 //components
 import Header from '../Header';
+import Parcours from '../Parcours';
 
 export default function App() {
   return (
     <div className="container">
         <Header />
-        <section className="parcours"></section>
+        <Parcours />
         <section className="skills"></section>
         <section className="projects"></section>
         <footer></footer>
