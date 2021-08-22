@@ -1,0 +1,52 @@
+@use '../../styles/vars.scss' as v;
+
+
+.header-container {
+    width: 100vw;
+
+    .nav-container {
+        height: 50vw;
+        width: 100%;
+        margin-bottom: 3em;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        height: 50vw;
+        width: 100%;
+        text-align: center;
+        padding: v.$padding;
+        position: relative;
+    }
+
+    li:nth-child(1) {
+        background-color: v.$bg-secondary-color;
+    }
+
+    li:nth-child(2) {
+        background-color: v.$bg-primary-color;
+    }
+
+    li:nth-child(3) {
+        background-color: v.$bg-green;
+    }
+
+    li:nth-child(4) {
+        background-color: v.$bg-fof;
+    }
+
+    li>a {
+        text-decoration: none;
+        font-size: 2.5em;
+        font-weight: semi-bold;
+        text-transform: uppercase;
+        color: v.$bg-secondary-color;
+        position: absolute;
+        bottom: 0;
+    }
+    .a_parcours {
+        color: v.$bg-primary-color;
+    }
+
+}
+
