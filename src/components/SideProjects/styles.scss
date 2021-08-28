@@ -1,12 +1,77 @@
 @use 'src/styles/vars' as v;
 
-.projects-container {
+.sideprojects-container {
     width: 100vw;
     height: 50vh;
     background-color: v.$bg-secondary-color;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
     margin-bottom: v.$margin-bottom;
+
+    .sideprojects-header {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 3em;
+        color: v.$bg-primary-color;
+    }
+
+    .cards-container {
+        margin-top: 5em;
+        margin-left: v.$margin-bottom;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: v.$padding*2;
+        margin: v.$padding;
+        width: 30%;
+        border: 1px solid v.$bg-primary-color;
+        border-radius: 20px;
+        background-color: v.$bg-primary-color;
+        color: v.$bg-secondary-color;
+        box-shadow:
+            0 2.8px 2.7px rgba(0, 0, 0, 0.031),
+            0 6.7px 6.5px rgba(0, 0, 0, 0.044),
+            0 12.5px 12.3px rgba(0, 0, 0, 0.055),
+            0 22.3px 21.9px rgba(0, 0, 0, 0.066),
+            0 41.8px 40.9px rgba(0, 0, 0, 0.079),
+            0 100px 98px rgba(0, 0, 0, 0.11);
+        
+        &-title {
+            font-size: 2em;
+        }
+
+        &-img {
+            margin: auto;
+            width: 80%;
+        }
+
+        &-description {
+            line-height: 1.5em;
+        }
+
+        &-link {
+            text-decoration: underline;
+            color: v.$bg-green;
+            align-self: center;
+        }
+    
+    }
+    .card:hover{
+        color: v.$bg-primary-color;
+        background-color: v.$bg-secondary-color;
+        transition-duration: 1s;
+        transform: scale(1.05);
+    }
 }
