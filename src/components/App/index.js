@@ -5,13 +5,14 @@ import './styles.scss';
 //components
 import Header from '../Header';
 import Parcours from '../Parcours';
+import Skills from '../Skills';
 
 export default function App() {
   return (
     <div className="container">
         <Header />
         <Parcours />
-        <section className="skills"></section>
+        <Skills />
         <section className="projects"></section>
         <footer></footer>
     </div>

@@ -1,0 +1,62 @@
+@use 'src/styles/vars' as v;
+
+.skills-container {
+    width: 100vw;
+    height: 50vh;
+    background-color: v.$bg-secondary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: v.$margin-bottom;
+
+    .skills-logos {
+        width: 160px;
+        height: 160px;
+        border-radius: 160px;
+        padding: v.$padding;
+        border: 1px solid v.$bg-primary-color;
+        margin: 20px;
+        background-position: center;
+        background-size: 80%;
+        background-repeat: no-repeat;
+
+        &_html {
+            background-image: url('../../assets/images/logos/HTML5.png');
+        }
+        &_css {
+            background-image: url('../../assets/images/logos/CSS.png');
+        }
+        &_js {
+            background-image: url('../../assets/images/logos/JavaScript.png');
+        }
+        &_sass {
+            background-image: url('../../assets/images/logos/Sass.png');
+        }
+        &_react {
+            background-image: url('../../assets/images/logos/react.png');
+        }
+        &_node {
+            background-image: url('../../assets/images/logos/node.png');
+        }
+        &_express {
+            background-image: url('../../assets/images/logos/express.png');
+        }
+        &_ejs {
+            background-image: url('../../assets/images/logos/EJS.png');
+        }
+        &_postgres {
+            background-image: url('../../assets/images/logos/postgres.png');
+        }
+    }
+
+    .skills-footer {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 3em;
+        color: v.$bg-primary-color;
+        text-align: right;
+    }
+}
+
