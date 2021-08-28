@@ -7,13 +7,15 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     position: relative;
     margin-bottom: v.$margin-bottom;
 
+
     .skills-logos {
-        width: 160px;
-        height: 160px;
-        border-radius: 160px;
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
         padding: v.$padding;
         border: 1px solid v.$bg-primary-color;
         margin: 20px;
@@ -48,12 +50,53 @@
         &_postgres {
             background-image: url('../../assets/images/logos/postgres.png');
         }
+        :nth-child(odd){
+            align-self: flex-end;  
+        }
     }
 
+    .bounce-down {
+        animation-name: bounce-down;
+        animation-delay: 0s;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes bounce-down {
+        from {
+            margin-top: 0px;
+        }
+        to {
+            margin-top: 300px;
+        }
+    }
+
+    .bounce-up {
+        animation-name: bounce-up;
+        animation-delay: 0s;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes bounce-up {
+        from {
+            margin-top: 300px;
+        }
+        to {
+            margin-top: 0px;
+        }
+    }
+    
+
+
+
     .skills-footer {
+        width: 100%;
         position: absolute;
-        bottom: 10px;
-        right: 10px;
+        bottom: 0px;
+        right: 0px;
         font-size: 3em;
         color: v.$bg-primary-color;
         text-align: right;
