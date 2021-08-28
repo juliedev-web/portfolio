@@ -1,0 +1,12 @@
+@use 'src/styles/vars' as v;
+
+.projects-container {
+    width: 100vw;
+    height: 50vh;
+    background-color: v.$bg-secondary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: v.$margin-bottom;
+}

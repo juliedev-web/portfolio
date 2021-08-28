@@ -6,6 +6,7 @@ import './styles.scss';
 import Header from '../Header';
 import Parcours from '../Parcours';
 import Skills from '../Skills';
+import SideProjects from '../SideProjects';
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         <Header />
         <Parcours />
         <Skills />
-        <section className="projects"></section>
+        <SideProjects />
         <footer></footer>
     </div>
   );

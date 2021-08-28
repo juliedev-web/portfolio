@@ -13,9 +13,9 @@
 
 
     .skills-logos {
-        width: 150px;
-        height: 150px;
-        border-radius: 150px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
         padding: v.$padding;
         border: 1px solid v.$bg-primary-color;
         margin: 20px;
@@ -58,39 +58,36 @@
     .bounce-down {
         animation-name: bounce-down;
         animation-delay: 0s;
-        animation-duration: 4s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-    }
 
-    @keyframes bounce-down {
-        from {
-            margin-top: 0px;
-        }
-        to {
-            margin-top: 300px;
+        @keyframes bounce-down {
+            from {
+                margin-top: 0px;
+            }
+            to {
+                margin-top: 400px;
+            }
         }
     }
 
     .bounce-up {
         animation-name: bounce-up;
         animation-delay: 0s;
-        animation-duration: 4s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-    }
 
-    @keyframes bounce-up {
-        from {
-            margin-top: 300px;
+        @keyframes bounce-up {
+            from {
+                margin-top: 400px;
+            }
+            to {
+                margin-top: 0px;
+            }
         }
-        to {
-            margin-top: 0px;
-        }
     }
-    
-
-
 
     .skills-footer {
         width: 100%;
@@ -102,4 +99,3 @@
         text-align: right;
     }
 }
-
