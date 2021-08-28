@@ -14,7 +14,7 @@
     .sideprojects-header {
         position: absolute;
         top: 10px;
-        left: 10px;
+        left: 20px;
         font-size: 3em;
         color: v.$bg-primary-color;
     }
@@ -26,6 +26,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     .card {
@@ -35,7 +36,7 @@
         justify-content: space-between;
         padding: v.$padding*2;
         margin: v.$padding;
-        width: 30%;
+        width: 20%;
         border: 1px solid v.$bg-primary-color;
         border-radius: 20px;
         background-color: v.$bg-primary-color;
@@ -50,23 +51,25 @@
         
         &-title {
             font-size: 2em;
+            margin-bottom: 10px;
         }
 
         &-img {
-            margin: auto;
-            width: 80%;
+            margin: 0 auto;
+            width: 70%;
         }
 
         &-description {
             line-height: 1.5em;
+            margin-bottom: 10px;
         }
 
         &-link {
             text-decoration: underline;
             color: v.$bg-green;
+            margin-bottom: 10px;
             align-self: center;
         }
-    
     }
     .card:hover{
         color: v.$bg-primary-color;
