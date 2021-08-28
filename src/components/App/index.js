@@ -7,6 +7,7 @@ import Header from '../Header';
 import Parcours from '../Parcours';
 import Skills from '../Skills';
 import SideProjects from '../SideProjects';
+import Footer from '../Footer';
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         <Parcours />
         <Skills />
         <SideProjects />
-        <footer></footer>
+        <Footer />
     </div>
   );
 }
