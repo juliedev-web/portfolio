@@ -3,16 +3,47 @@
 
 .header-container {
     width: 100vw;
+    position: relative;
+
+    .titles{
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        padding: v.$padding;
+        font-weight: 600;
+        line-height: 6em;
+        
+        &-name, {
+            font-size: 4em;
+            text-align: center;
+            color: v.$bg-secondary-color;
+        }
+        &-job {
+            font-size: 4em;
+            text-align: center;
+            color: v.$bg-secondary-color;
+        }
+    }
 
     .nav-container {
         margin-bottom: v.$margin-bottom;
+        
     }
-    .links {
+    .sections {
         display: flex;
         flex-direction: row;
         height: 50vw;
         width: 100%;
-        position: relative;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.008),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.016),
+        0 12.5px 10px rgba(0, 0, 0, 0.022),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.027),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.033),
+        0 100px 80px rgba(0, 0, 0, 0.07)
+      ;
+        
     }
 
     li:nth-child(1) {
@@ -20,7 +51,7 @@
     }
 
     li:nth-child(2) {
-        background-color: v.$bg-primary-color;
+        background-color: v.$bg-fof;
     }
 
     li:nth-child(3) {
@@ -28,10 +59,10 @@
     }
 
     li:nth-child(4) {
-        background-color: v.$bg-fof;
+        background-color: v.$bg-primary-color;
     }
 
-    li>a {
+    li>p {
         width: 100%;
         text-decoration: none;
         font-size: 2.5em;
@@ -40,10 +71,9 @@
         text-align: center;
         padding-bottom: v.$padding;
         color: v.$bg-secondary-color;
-        position: absolute;
-        bottom: 0;
+        align-self: flex-end;
     }
-    .a_parcours {
+    .p_parcours {
         color: v.$bg-primary-color;
     }
 

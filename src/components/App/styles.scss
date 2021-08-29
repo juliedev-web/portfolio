@@ -1,6 +1,6 @@
 @use 'src/styles/vars' as v;
 
 .container {
-    box-sizing: border-box;
-    padding: v.$padding;
+    margin: auto;
+    width: 100vw;
 }

@@ -1,7 +1,7 @@
 @use 'src/styles/vars' as v;
 
 .skills-container {
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     background-color: v.$bg-secondary-color;
     display: flex;
@@ -10,7 +10,7 @@
     align-items: flex-start;
     position: relative;
     margin-bottom: v.$margin-bottom;
-
+    padding: v.$padding;
 
     .skills-logos {
         width: 100px;
