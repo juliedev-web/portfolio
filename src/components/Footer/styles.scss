@@ -9,7 +9,27 @@
     justify-content: center;
     position: relative;
     margin-top: v.$margin-bottom;
-    
+    margin-right: 10px;
+    padding: v.$padding;
+
+    .contacts-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: v.$padding;
+    }
+
+    ul {
+        margin: 10px 40px 10px 10px;
+        line-height: 2em;
+        font-size: 1.3em;
+        
+        li, a {
+            color: v.$bg-secondary-color;
+            text-decoration: none;
+        }
+    }
+
     .footer-footer {
         position: absolute;
         bottom: 10px;
