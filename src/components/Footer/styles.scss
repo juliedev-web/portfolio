@@ -1,5 +1,6 @@
 @use 'src/styles/vars' as v;
 
+//Desktop
 .footer-container {
     width: 100vw;
     height: 20vh;
@@ -26,7 +27,6 @@
             li, a {
                 color: v.$bg-secondary-color;
                 text-decoration: none;
-                text-decoration-style: circle;
             }
             
             .fa-icon {
@@ -35,8 +35,6 @@
         }
     }
 
-
-
     .footer-footer {
         position: absolute;
         bottom: 10px;
@@ -44,4 +42,34 @@
         font-size: 3em;
         color: v.$bg-secondary-color;
     }
+}
+
+//Responsive CSS
+@media screen and (max-width: 830px) {
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+                
+        .contacts-container{
+            flex-direction: column;
+            align-items: center;
+        
+            li, a {
+                text-align: center;
+                margin: auto;
+            }
+        }
+        .footer-footer{
+            width: 100%;
+            position: static;
+            top: 0;
+            font-size: 3em;
+            color: v.$bg-secondary-color;
+            text-align: center;
+            margin: auto;
+
+        }
+    }
+    
 }

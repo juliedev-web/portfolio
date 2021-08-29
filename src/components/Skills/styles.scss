@@ -1,5 +1,6 @@
 @use 'src/styles/vars' as v;
 
+//CSS for Desktop version 
 .skills-container {
     width: 100%;
     height: 50vh;
@@ -88,7 +89,6 @@
             }
         }
     }
-
     .skills-footer {
         width: 100%;
         position: absolute;
@@ -99,3 +99,71 @@
         text-align: right;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .skills-container {
+        
+        .skills-logos {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            margin: 10px;
+        }
+
+    }
+}    
+
+@media screen and (max-width: 865px) {
+    .skills-container {
+        width: 100%;
+        height: 100vh;
+        background-color: v.$bg-secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative;
+    
+        .skills-logos {
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+    
+        .bounce-down {
+            animation-name: bounce-down;
+    
+            @keyframes bounce-down {
+                from {
+                    margin-right: 0;
+                }
+                to {
+                    margin-left: 90%;
+                }
+            }
+        }
+    
+        .bounce-up {
+            animation-name: bounce-up;
+    
+            @keyframes bounce-up {
+                from {
+                    margin-left: 90%;
+                }
+                to {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .skills-footer {
+            width: 100%;
+            position: static;
+            bottom: 0px;
+            font-size: 3em;
+            color: v.$bg-primary-color;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}  
