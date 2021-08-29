@@ -7,9 +7,13 @@ Welcome on my portoflio. A simple page to introduce myself, my skills, my projec
 
 ## How I build my portfolio ?
 - HTML
-- CSS
+- CSS (with few animations)
 - Javascript
-- React
+- React to build my components
+
+My portoflio is responsive.
+
+It is live on [Mon portfolio]()
 
 ## How to reach me ?
 - My LinkedIn profil - [Julie Vandard](https://www.linkedin.com/in/julie-vandard/)
