@@ -12,7 +12,7 @@
 
     .sideprojects-header {
         position: absolute;
-        top: 10px;
+        bottom: 10px;
         left: 20px;
         font-size: 3em;
         color: v.$bg-primary-color;
@@ -81,7 +81,6 @@
 //Reponsive CSS
 @media screen and (max-width: 1000px) {
     .sideprojects-container{
-
         .card{
             width: 40%;
         }
@@ -97,7 +96,7 @@
         .sideprojects-header{
             position: static;
             width: 100%;
-            top: 0;
+            bottom: 10px;
             text-align: center;
             margin: auto;
         }
