@@ -1,0 +1,74 @@
+@use '../../styles/vars.scss' as v;
+
+//CSS for deskptop version
+.parcours-container {
+    width: 100vw;
+    background-color: v.$bg-primary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-bottom: v.$margin-bottom;
+
+    .description {
+        width: 50%;
+        padding: 5em;
+    }
+
+    article {
+        margin: 3em auto;
+        color: v.$bg-secondary-color;
+        font-size: 1.5em;
+        line-height: 2em;
+        font-weight: 300;
+    }
+
+    p{
+        margin-bottom: v.$padding;
+    }
+
+    a {
+        text-decoration: underline;
+        color: v.$bg-secondary-color;
+    }
+
+    span {
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+
+    .illustration{
+        width: 50%;
+        background-image: url('../../assets/images/clement-helardot-medium-unsplash.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parcours-footer {
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+        font-size: 3em;
+        color: v.$bg-secondary-color;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .parcours-container {
+        display: flex;
+        flex-direction: column-reverse;
+        
+
+        .description {
+            width: 80%;
+            padding: 5em;
+        }
+
+        .illustration{
+            width: 100%;
+            height: 50vh;
+        }
+
+    }
+}
