@@ -8,7 +8,7 @@ import Home from '../Homepage';
 
 export default function Homepage() {
   return (
-    <div className="header">
+    <div className="Homepage">
         <Header />
         <Home />
         <Footer />

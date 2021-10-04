@@ -22,8 +22,7 @@ export default function SideProjects() {
           <article className="card">
             <h3 className="card-title">The ukulele project</h3>
             <img className="card-img" src={uke} alt="capture d'écran du site" />
-            <p className="card-description">Le but est de pouvoir m'exercer sur les notions apprises en formation, et de monter en compétences. 
-            Une seconde version avec le même contenu sera réalisée avec une mise en page plus moderne, et des choix techniques différents.</p>
+            <p className="card-description">Au départ ce n'était qu'un dessin en CSS. Et c'est devenu un mini-site sur l'ukulélé. L'idée était de le développer en ajoutant du contenu au fur et à mesure et de continuer à travailler HTML et CSS, voir une API si j'en trouve une pour générer des accords.</p>
             <a href="https://theukuleleproject.vercel.app" target="_blank" rel="noreferrer" className="card-link">Le projet en live</a>
             <a href="https://github.com/juliedev-web/theukuleleproject" target="_blank" rel="noreferrer" className="card-link">Le lien Github</a>
           </article>
