@@ -14,8 +14,8 @@ export default function App() {
     <div className="container">
         <Header />
         <Parcours />
-        <Skills />
         <SideProjects />
+        <Skills />
         <Footer />
     </div>
   );

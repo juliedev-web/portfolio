@@ -15,9 +15,9 @@ export default function Header () {
       </section>
         <nav className="nav-container">
           <ul className="sections">
-            <li className="sections sections_parcours"><p className="p_parcours">#Parcours</p></li>
-            <li className="sections sections_skills"><p>#Compétences</p></li>
-            <li className="sections sections_projects"><p>#Projets</p></li>
+            <li className="sections sections_parcours"><p>#Parcours</p></li>
+            <li className="sections sections_skills"><p>#Projets</p></li>
+            <li className="sections sections_projects"><p>#Compétences</p></li>
             <li className="sections sections_contact"><p>#Me contacter</p></li>
           </ul>
         </nav>
