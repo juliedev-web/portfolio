@@ -1,0 +1,6 @@
+@use 'src/styles/vars' as v;
+.container {
+  width: 99%;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */

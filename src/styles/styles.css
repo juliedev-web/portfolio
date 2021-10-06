@@ -1,0 +1,8 @@
+@use 'reset';
+@use 'vars';
+body {
+  font-family: 'Dosis', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=styles.css.map */
