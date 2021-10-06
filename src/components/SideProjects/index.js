@@ -43,7 +43,7 @@ export default function SideProjects() {
           <article className="card">
             <h3 className="card-title">The first one !</h3>
             <img className="card-img" src={FEM_1} alt="capture d'écran du site" />
-            <p className="card-description">Ma première intégration réalisée via le site <a href="https://www.frontendmentor.io/">Frontend Mentor</a>. Ma première intégration mobile-first. Mon premier projet déployé. </p>
+            <p className="card-description">Ma première intégration réalisée via le site <a href="https://www.frontendmentor.io/" target="_blank" rel="noreferrer" className="card-link">Frontend Mentor</a>. Ma première intégration mobile-first. Mon premier projet déployé. </p>
             <a href="https://fem-single-price-grid-component-git-main-juliedev-web.vercel.app/" target="_blank" rel="noreferrer" className="card-link">Le projet en live</a>
             <a href="https://github.com/juliedev-web/FEM_Single_Price_Grid_Component" target="_blank" rel="noreferrer" className="card-link">Le lien Github</a>
           </article>
