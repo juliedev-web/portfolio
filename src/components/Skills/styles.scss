@@ -113,12 +113,9 @@
 @media screen and (max-width: 865px) {
     .skills-container {
         width: 90%;
-        height: 100vh;
+        height: 70vh;
         background-color: v.$bg-secondary-color;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+        flex-wrap: wrap;
         position: relative;
     
         .skills-logos {
@@ -127,32 +124,12 @@
             border-radius: 50px;
         }
     
-        .bounce-down {
-            animation-name: bounce-down;
-    
-            @keyframes bounce-down {
-                from {
-                    margin-right: 0;
-                }
-                to {
-                    margin-left: 90%;
-                }
-            }
-        }
-    
-        .bounce-up {
-            animation-name: bounce-up;
-    
-            @keyframes bounce-up {
-                from {
-                    margin-left: 90%;
-                }
-                to {
-                    margin-right: 0;
-                }
-            }
-        }
+        .bounce-down,
+        .bounce-up  {
+            animation-iteration-count: 0;
 
+        }
+    
         .skills-footer {
             width: 100%;
             position: static;
