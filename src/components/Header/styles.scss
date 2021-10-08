@@ -77,8 +77,12 @@
 
 @media screen and (max-width : 1000px) {
     .header-container {
+        position: static;
+        top: 0;
+        left: 0;
         
         .titles{
+            position:static;
             padding: v.$padding;
             font-weight: 600;
             line-height: 4em;
@@ -103,19 +107,20 @@
 
 @media screen and (max-width : 865px) {
     .header-container {
-        position: relative;
+        // position: static;
+        // top: 0;
+        // left: 0;
         border: 2px solid blue;
 
-
     .titles{
-        position: static;
-        top: 0px;
-        left: 0px;
+        // position: static;
+        // top: 0px;
+        // left: 0px;
         width: 100%;
         font-weight: 500;
         line-height: 4em;
         padding: 0;
-                
+
         &-name, 
         &-job {
             font-size: 3em;
