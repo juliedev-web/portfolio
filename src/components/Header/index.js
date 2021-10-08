@@ -13,14 +13,6 @@ export default function Header () {
           <p><span>#</span>Développeuse <span>web frontend</span></p>
         </div>
       </section>
-        <nav className="nav-container">
-          <ul className="sections">
-            <li className="sections sections_parcours"><p>#Parcours</p></li>
-            <li className="sections sections_skills"><p>#Projets</p></li>
-            <li className="sections sections_projects"><p>#Compétences</p></li>
-            <li className="sections sections_contact"><p>#Me contacter</p></li>
-          </ul>
-        </nav>
     </div>
 
   );

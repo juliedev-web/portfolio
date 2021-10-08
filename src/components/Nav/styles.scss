@@ -1,0 +1,71 @@
+@use '../../styles/vars.scss' as v;
+
+.nav-container {
+    width: 100%;
+    margin-bottom: v.$margin-bottom;
+}
+.sections {
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    width: 100%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.008),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.016),
+    0 12.5px 10px rgba(0, 0, 0, 0.022),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.027),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.033),
+    0 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+}
+
+li:nth-child(1) {
+    background-color: v.$bg-primary-color;
+}
+
+li:nth-child(2) {
+    background-color: v.$bg-fof;
+}
+
+li:nth-child(3) {
+    background-color: v.$bg-green;
+}
+
+li:nth-child(4) {
+    background-color: v.$bg-primary-color;
+}
+
+li>p {
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: v.$padding;
+    color: v.$bg-secondary-color;
+    align-self: flex-end;
+}
+
+@media screen and (max-width : 1000px) {
+    .nav-container {
+        li>p {
+            font-size: 2em;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (max-width : 865px) {
+    .nav-container {
+
+        .sections {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        li>p {
+            font-size: 2em;
+            }
+        }
+}

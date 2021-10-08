@@ -3,22 +3,19 @@
 //CSS for desktop size
 .header-container {
     width: 100%;
+    margin-bottom: v.$margin-bottom;
 
     .titles{
-        border: 1px solid lawngreen;
         width: 100%;
         height: 30vh;
         padding: v.$padding;
         font-weight: 600;
         line-height: 6em;
-        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: v.$bg-secondary-color;
-        background-color: lawngreen;
-        margin-bottom: 20px;
 
         &-name {
             font-size: 4em;
@@ -31,53 +28,6 @@
             font-weight: 500;
         }
     }
-
-    .nav-container {
-        margin-bottom: v.$margin-bottom;
-        
-    }
-    .sections {
-        display: flex;
-        flex-direction: row;
-        height: 50vh;
-        width: 100%;
-        box-shadow:
-        0 2.8px 2.2px rgba(0, 0, 0, 0.008),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.016),
-        0 12.5px 10px rgba(0, 0, 0, 0.022),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.027),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.033),
-        0 100px 80px rgba(0, 0, 0, 0.07)
-      ;
-    }
-
-    li:nth-child(1) {
-        background-color: v.$bg-primary-color;
-    }
-
-    li:nth-child(2) {
-        background-color: v.$bg-fof;
-    }
-
-    li:nth-child(3) {
-        background-color: v.$bg-green;
-    }
-
-    li:nth-child(4) {
-        background-color: v.$bg-primary-color;
-    }
-
-    li>p {
-        width: 100%;
-        text-decoration: none;
-        font-size: 2.5em;
-        font-weight: 500;
-        text-transform: uppercase;
-        text-align: center;
-        padding-bottom: v.$padding;
-        color: v.$bg-secondary-color;
-        align-self: flex-end;
-    }
 }
 
 
@@ -85,7 +35,6 @@
     .header-container {
         
         .titles{
-            //flex-wrap: wrap;
             line-height: 4em;
             
             &-name {
@@ -95,35 +44,13 @@
                 font-size: 2.5em;
             }
         }
-        li>p {
-            font-size: 2em;
-            font-weight: 500;
-        }
     }
 }
 
 @media screen and (max-width : 865px) {
     .header-container {
-
         .titles{
             font-weight: 500;
-
-            // &-name {
-            //     font-size: 3em;
-            // } 
-            // &-job {
-            //     font-size: 2.5em;
-            // }
         }
-
-        .sections {
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        li>p {
-            font-size: 2em;
-            }
-        }
+    }
 }
