@@ -56,31 +56,32 @@
 
 @media screen and (max-width: 865px) {
     .parcours-container {
-        display: flex;
-        flex-direction: column-reverse;
+        display: none;
+
+        // display: flex;
+        // flex-direction: column-reverse;
         
 
-        .description {
-            width: 60%;
-            padding: 5em;
-            margin: auto;
+        // .description {
+        //     width: 60%;
+        //     padding: 5em;
+        //     margin: auto;
 
-            article {
-                font-size: 1.5em;
-                line-height: 1.4em;
-                font-weight: 300;
-            }
+        //     article {
+        //         font-size: 1.5em;
+        //         line-height: 1.4em;
+        //         font-weight: 300;
+        //     }
 
-            .parcours-footer {
-                position: static;
-                margin-top: 25px;
-            }
-        }
+        //     .parcours-footer {
+        //         position: static;
+        //         margin-top: 25px;
+        //     }
+        // }
 
-        .illustration{
-            // width: 100%;
-            // height: 50vh;
-            display: none;
-        }
+        // .illustration{
+        //     // width: 100%;
+        //     // height: 50vh;
+        // }
     }
 }
