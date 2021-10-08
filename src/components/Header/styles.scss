@@ -107,20 +107,23 @@
 
     .titles{
         position: static;
-        top: 0;
+        top: 0px;
         left: 0;
         width: 100%;
         font-weight: 500;
         line-height: 4em;
+        padding: 0;
         
         &-name, 
         &-job {
             font-size: 3em;
             text-align: center;
-            color: v.$bg-green;
-            background-color: v.$bg-primary-color;
-            margin-bottom: -1px;
+            color: v.$bg-primary-color;
+            background-color: v.$bg-secondary-color;
+            margin-bottom: 20px;
+            margin-top: 10px;
         }
+
     }
 
     .nav-container {
@@ -133,7 +136,7 @@
     }
 
     li>p {
-        font-size: 2.5em;
+        font-size: 2em;
         }
     }
 }
