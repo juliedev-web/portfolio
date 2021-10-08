@@ -78,8 +78,6 @@
 @media screen and (max-width : 1000px) {
     .header-container {
         position: static;
-        top: 0;
-        left: 0;
         
         .titles{
             position:static;
@@ -107,15 +105,11 @@
 
 @media screen and (max-width : 865px) {
     .header-container {
-        // position: static;
-        // top: 0;
-        // left: 0;
+        position: static;
         border: 2px solid blue;
 
     .titles{
-        // position: static;
-        // top: 0px;
-        // left: 0px;
+        position: static;
         width: 100%;
         font-weight: 500;
         line-height: 4em;
