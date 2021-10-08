@@ -4,10 +4,11 @@
     width: 100%;
     margin-bottom: v.$margin-bottom;
 }
+
 .sections {
     display: flex;
     flex-direction: row;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.008),
@@ -59,13 +60,13 @@ li>p {
     .nav-container {
 
         .sections {
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+            display: block;
+            height: 10%;
         }
 
         li>p {
             font-size: 2em;
-            }
+            padding: v.$padding;
         }
+    }
 }
