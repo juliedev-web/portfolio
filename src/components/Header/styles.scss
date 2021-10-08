@@ -3,25 +3,30 @@
 //CSS for desktop size
 .header-container {
     width: 100%;
-    //position: relative;
+    // position: relative;
 
     .titles{
         width: 100%;
-        //position: absolute;
+        // position: absolute;
         // top: 30%;
         // left: 10%;
         padding: v.$padding;
         font-weight: 600;
         line-height: 6em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: v.$bg-secondary-color;
+        margin-bottom: 20px;
 
         &-name {
             font-size: 4em;
-            text-align: left;
             color: v.$bg-primary-color;
         }
         &-job {
             font-size: 3.5em;
-            text-align: right;
             color: v.$bg-primary-color;
             margin-right: 10px;
             font-weight: 500;
@@ -81,19 +86,21 @@
     .header-container {
         
         .titles{
+            flex-wrap: wrap;
             padding: v.$padding;
             font-weight: 600;
             line-height: 4em;
+            //background-color: v.$bg-primary-color;
             
             &-name {
                 font-size: 3em;
-                // text-align: center;
-                color: v.$bg-primary-color;
+                text-align: center;
+                //color: v.$bg-secondary-color;
             }
             &-job {
                 font-size: 2.5em;
-                // text-align: center;
-                color: v.$bg-primary-color;
+                text-align: center;
+                // color: v.$bg-secondary-color;
             }
         }
         li>p {
@@ -119,8 +126,6 @@
         &-job {
             font-size: 2.5em;
             text-align: center;
-            color: v.$bg-primary-color;
-            background-color: v.$bg-secondary-color;
             margin-bottom: 20px;
             margin-top: 10px;
         }
