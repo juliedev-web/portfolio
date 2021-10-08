@@ -5,6 +5,7 @@
     width: 100%;
 
     .titles{
+        border: 1px solid lawngreen;
         width: 100%;
         height: 30vh;
         padding: v.$padding;
@@ -16,6 +17,7 @@
         align-items: center;
         justify-content: center;
         background-color: v.$bg-secondary-color;
+        background-color: lawngreen;
         margin-bottom: 20px;
 
         &-name {
@@ -83,11 +85,8 @@
     .header-container {
         
         .titles{
-            flex-wrap: wrap;
-            padding: v.$padding;
-            font-weight: 600;
+            //flex-wrap: wrap;
             line-height: 4em;
-            text-align: center;
             
             &-name {
                 font-size: 3em;
@@ -106,35 +105,25 @@
 @media screen and (max-width : 865px) {
     .header-container {
 
-    .titles{
-        width: 100%;
-        font-weight: 500;
-        line-height: 4em;
-        padding: 0;
+        .titles{
+            font-weight: 500;
 
-        &-name {
-            font-size: 3em;
-            text-align: center;
-        } 
-        &-job {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 20px;
-            margin-top: 10px;
+            // &-name {
+            //     font-size: 3em;
+            // } 
+            // &-job {
+            //     font-size: 2.5em;
+            // }
         }
-    }
 
-    .nav-container {
-        margin-bottom: v.$margin-bottom;
-    }
-    .sections {
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    li>p {
-        font-size: 2em;
+        .sections {
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
         }
-    }
+
+        li>p {
+            font-size: 2em;
+            }
+        }
 }
