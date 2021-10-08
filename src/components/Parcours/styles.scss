@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: relative;
     margin-bottom: v.$margin-bottom;
 
     .description {
@@ -46,9 +45,6 @@
     }
 
     .parcours-footer {
-        position: absolute;
-        bottom: 10px;
-        left: 20px;
         font-size: 3em;
         color: v.$bg-secondary-color;
     }
@@ -58,7 +54,6 @@
     .parcours-container {
         display: flex;
         flex-direction: column-reverse;
-        
 
         .description {
             width: 60%;
@@ -72,7 +67,6 @@
             }
 
             .parcours-footer {
-                position: static;
                 margin-top: 25px;
             }
         }
