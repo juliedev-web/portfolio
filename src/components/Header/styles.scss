@@ -3,13 +3,10 @@
 //CSS for desktop size
 .header-container {
     width: 100%;
-    // position: relative;
 
     .titles{
         width: 100%;
-        // position: absolute;
-        // top: 30%;
-        // left: 10%;
+        height: 30vh;
         padding: v.$padding;
         font-weight: 600;
         line-height: 6em;
@@ -90,17 +87,13 @@
             padding: v.$padding;
             font-weight: 600;
             line-height: 4em;
-            //background-color: v.$bg-primary-color;
+            text-align: center;
             
             &-name {
                 font-size: 3em;
-                text-align: center;
-                //color: v.$bg-secondary-color;
             }
             &-job {
                 font-size: 2.5em;
-                text-align: center;
-                // color: v.$bg-secondary-color;
             }
         }
         li>p {
