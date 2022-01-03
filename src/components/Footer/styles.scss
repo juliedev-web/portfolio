@@ -28,6 +28,9 @@
                 color: v.$bg-secondary-color;
                 text-decoration: none;
             }
+            .contact, .github, .blog {
+                background-color: v.$bg-primary-color;
+            }
             
             .fa-icon {
                 margin-right: 10px;

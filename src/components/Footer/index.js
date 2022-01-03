@@ -31,7 +31,7 @@ export default function Footer() {
             <li><a href="https://www.linkedin.com/in/julie-vandard/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="fa-icon" 
             />Mon profil LinkedIn</a></li>
-            <li><a href="https://github.com/juliedev-web" target="_blank" rel="noreferrer">
+            <li className="github"><a href="https://github.com/juliedev-web" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithubSquare} className="fa-icon" 
             />Mon profil Github</a></li>
          </ul>
@@ -39,7 +39,7 @@ export default function Footer() {
             <li><a href="https://twitter.com/jvgazouille" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faTwitterSquare} className="fa-icon" 
             />Mon compte twitter</a></li>
-            <li><a href="https://lesmainsdanslecode.com/" target="_blank" rel="noreferrer">
+            <li className="blog"><a href="https://lesmainsdanslecode.com/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faBlog} className="fa-icon" 
             />Mon blog sur ma reconversion</a></li>
         </ul>
