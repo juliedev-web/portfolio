@@ -10,11 +10,11 @@ Welcome on my portoflio. A simple page to introduce myself, my skills, my projec
 - CSS
 - Sass
 - Javascript
-- React to build my components
+- React 
 
 My portoflio is responsive. 
 
-It is live on [Mon portfolio](https://julie-vandard-portoflio.netlify.app/)
+It is live here : [Mon portfolio](https://julie-vandard-portoflio.netlify.app/)
 
 ## How to reach me ?
 - My LinkedIn profil - [Julie Vandard](https://www.linkedin.com/in/julie-vandard/)

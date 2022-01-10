@@ -4,7 +4,7 @@ import './styles.scss';
 
 export default function Parcours() {
   return (
-    <div className="parcours-container">
+    <div className="parcours-container" id="parcours">
         <section className="description">
             <article>
                 <p>Après dix-huit années dans le journalisme, dont quinze dans la mise en page, la relecture et la correction, j’ai décidé de me reconvertir et de devenir développeuse web frontend.</p>

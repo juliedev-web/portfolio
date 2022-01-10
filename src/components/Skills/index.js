@@ -4,7 +4,7 @@ import './styles.scss';
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
         <div className="skills-logos skills-logos_html bounce-down"></div>
         <div className="skills-logos skills-logos_css bounce-up"></div>
         <div className="skills-logos skills-logos_js bounce-down"></div>

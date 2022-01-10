@@ -10,7 +10,7 @@ import FEM_1 from '../../assets/images/projects/FEM_1.png';
 
 export default function SideProjects() {
   return (
-    <div className="sideprojects-container">
+    <div className="sideprojects-container" id="projects">
       <header className="sideprojects-header">#Projets</header>
         <section className="cards-container">
         <article className="card">
