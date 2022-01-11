@@ -11,7 +11,7 @@ export default function Parcours() {
                 <p>J’ai suivi une formation intensive chez <a href="https://oclock.io/" target="_blank" rel="noreferrer">O’Clock </a>durant cinq mois pour me reconvertir.</p>
                 <p><span>(Photo by <a href="https://unsplash.com/photos/95YRwf6CNw8" target="_blank" rel="noreferrer">Clément Hélardot on Unsplash</a>  )</span></p>
             </article>
-            <footer className="parcours-footer">#Mon parcours</footer>
+            
         </section>
         <div className="illustration"></div>
     </div>
