@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    margin-bottom: v.$margin-bottom;
+    // margin-bottom: v.$margin-bottom;
     padding: v.$padding;
 
     .skills-logos {
@@ -65,7 +65,7 @@
 
         @keyframes bounce-down {
             from {
-                margin-top: 0px;
+                margin-top: 10%;
             }
             to {
                 margin-top: 30%;
@@ -85,13 +85,13 @@
                 margin-top: 30%;
             }
             to {
-                margin-top: 0px;
+                margin-top: 10%;
             }
         }
     }
-    .skills-footer {
+    .skills-header {
         position: absolute;
-        bottom: 10px;
+        top: 0px;
         left: 20px;
         font-size: 3em;
         color: v.$bg-primary-color;
